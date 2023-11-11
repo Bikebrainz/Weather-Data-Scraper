@@ -1,0 +1,11 @@
+In this script:
+
+    requests.get(URL) fetches the content of the webpage.
+    BeautifulSoup(page.content, 'html.parser') parses the HTML content of the page.
+    soup.find() is used to locate the HTML elements containing the desired data. You need to replace 'YourTemperatureClassName', 'YourHumidityClassName', and 'YourWindSpeedClassName' with the actual class names used in the website's HTML for temperature, humidity, and wind speed, respectively.
+
+Important Notes:
+
+    The class names 'YourTemperatureClassName', 'YourHumidityClassName', and 'YourWindSpeedClassName' are placeholders. You need to inspect the HTML of the weather website and find the correct class names or identifiers for the weather data.
+    Web scraping can be fragile due to changes in the website's layout or content. If the structure of the webpage changes, the script may need to be updated.
+    Always ensure that your web scraping activities comply with the website's terms of service and legal regulations. Some websites prohibit or restrict scraping.
